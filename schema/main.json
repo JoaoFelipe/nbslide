@@ -1,0 +1,34 @@
+{
+  "title": "NbSlide Keyboard Shortcuts",
+  "description": "Keyboard shortcuts to navigate in the slide mode.",
+  "jupyter.lab.shortcuts": [
+    {
+      "command": "nbslide:start-current",
+      "keys": ["Ctrl F5"],
+      "selector": ".jp-Notebook:focus"
+    },
+    {
+      "command": "nbslide:start-begin",
+      "keys": ["Ctrl Shift F5"],
+      "selector": ".jp-Notebook:focus"
+    },
+    {
+      "command": "nbslide:next-slide",
+      "keys": ["ArrowRight"],
+      "selector": ".jp-Notebook:focus"
+    },
+    {
+      "command": "nbslide:previous-slide",
+      "keys": ["ArrowLeft"],
+      "selector": ".jp-Notebook:focus"
+    },
+    {
+      "command": "nbslide:show-selected",
+      "keys": ["\\"],
+      "selector": ".jp-Notebook:focus"
+    }
+  ],
+  "properties": {},
+  "additionalProperties": false,
+  "type": "object"
+}
